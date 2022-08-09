@@ -223,6 +223,7 @@ input[type="button"]:hover:enabled {
   }
   .education {
     min-width: 10%;
+      max-width: 20vw;
   }
   .About {
     min-width: 20%;
