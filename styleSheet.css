@@ -215,9 +215,7 @@ input[type="button"]:hover:enabled {
 }
 
 @media (max-width: 1020px) {
-  .cards {
-    flex-direction: column;
-  }
+
   .info {
     min-width: 20%;
   }
