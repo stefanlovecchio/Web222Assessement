@@ -237,4 +237,10 @@ input[type="button"]:hover:enabled {
   .form {
     min-width: 20%;
   }
+    #ed1 {
+        max-width: 10vw;
+}
+    #ed2 {
+        max-width: 10vw;
+    }
 }
