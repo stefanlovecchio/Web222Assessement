@@ -216,29 +216,34 @@ input[type="button"]:hover:enabled {
 
 @media (max-width: 1020px) {
 
+  .cards {
+    flex-direction: column;
+  }
   .info {
     min-width: 20%;
   }
   .education {
-    min-width: 10%;
-      max-width: 10vw;
+    min-width: 90%;
+      max-width: 50vw; 
   }
-  .About {
-    min-width: 20%;
-  }
-  #box {
-    max-width: 10vw;
-  }
-  .schools {
-    max-width: 10vw;
-  }
-  .form {
-    min-width: 20%;
-  }
+
+
     #ed1 {
-        max-width: 10vw;
-}
+        
+        max-height: 20vh;
+  }
     #ed2 {
-        max-width: 10vw;
+       
+        max-height: 19vh;
     }
+  
+  #contact {
+    margin-top: 50vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #w3review {
+    max-width:40vw;
+  }
 }
