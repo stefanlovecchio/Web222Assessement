@@ -228,7 +228,7 @@ input[type="button"]:hover:enabled {
     min-width: 20%;
   }
   #box {
-    max-width: 50%;
+    max-width: 10vw;
   }
   .schools {
     min-width: 10%;
