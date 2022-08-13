@@ -124,6 +124,7 @@ input#name, input#email, input#address, input#city, input#postalCode {
     background-color: #c9d6df;
     border-style: none;
     margin-top: 0px;
+      max-width: 100vw;
   }
 
   th {
@@ -161,6 +162,7 @@ form {
   margin:
   auto;
   padding:0.2em;
+    max-width: 80vw;
 }
 
 input {
